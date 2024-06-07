@@ -1,0 +1,24 @@
+{
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "never"
+    },
+    // 保存的时候自动格式化
+    "editor.formatOnSave": true,
+    // 默认格式化工具选择prettier
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.fontLigatures": false,
+    "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.exclude": {
+      "**/release/": true,
+      "**/devExtensions/": true
+    },
+    // "vue3snippets.enable-compile-vue-file-on-did-save-code": false,
+    "vue.codeActions.enabled": false,
+    "editor.inlineSuggest.showToolbar": "always",
+    "[jsonc]": {
+      "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    }
+  }
+  
