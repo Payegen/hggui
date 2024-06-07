@@ -8,13 +8,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@hggui/utils": "workspace:^",
     "vue": "^3.4.21"
   },
   "devDependencies": {
+    "@hgg-ui/components": "workspace:*",
     "@vitejs/plugin-vue": "^5.0.4",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
-    "vue-tsc": "^2.0.6",
-    "@hgg-ui/components": "workspace:*"
+    "vue-tsc": "^2.0.6"
   }
 }

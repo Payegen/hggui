@@ -1,8 +1,10 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-
+import { ref, onMounted } from 'vue'
+import { add } from '@hggui/utils'
 defineProps<{ msg: string }>()
-
+onMounted(() => {
+  console.log('res : ' + add(1, 2))
+})
 const count = ref(0)
 </script>
 

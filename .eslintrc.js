@@ -4,14 +4,15 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'prettier',
-    'plugin:prettier/recommended'
+    'plugin:prettier/recommended',
+    'plugin:vue/recommended',
   ],
   env: {
     browser: true,
     es2021: true
   },
   extends: ['eslint:recommended'],
-  plugins: ['@typescript-eslint', 'prettier'],
+  plugins: ['@typescript-eslint', 'prettier', 'vue'],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module'

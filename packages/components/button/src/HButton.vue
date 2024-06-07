@@ -17,13 +17,13 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { ButtonProps } from './HButton'
-// defineProps({
-//   name: 'HButton'
-// })
+
+defineOptions({
+  name: 'HButton'
+})
+
 const Props = defineProps(ButtonProps)
-// const adta = computed(() => {
-//   return Props.size
-// })
+
 const data = computed(() => {
   return 'a' + Props.size
 })
